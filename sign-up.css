@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+#sekil1 {
+    background-image: url('./arxafon.twitter.jpg');
+    height: 42em;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sol {
+    font-size: 15em;
+    color: white;
+}
+.sag {
+    font-size: 2.5em;
+    margin-top: 80px;
+    color:rgba(29,161,242,1.00); ;
+    margin-left: 25px;
+}
+.h1 {
+    font-size: 5em !important;
+    font-weight: 800 !important;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 70px; 
+    color: rgb(0,0,0);
+    margin-left: 25px;
+}
+.h2 {
+    color: rgb(0,0,0);
+    font-family: 'Roboto', sans-serif;
+    margin-left: 25px;
+    font-weight: 800 !important;
+    margin-top: 50px;
+    font-size: 2em !important;
+}
+.sign-up , .log-in {
+    width: 25em;
+    display: block;
+    border: 0.1px solid rgb(29, 161, 242);
+    height: 3em;
+    border-radius: 30px;
+    margin-left: 25px;
+    font-weight: 700;
+}
+.log-in {
+    margin-top: 1em;
+    color: rgb(29,161,242); 
+    margin-top: 20px;
+    background-color: white;
+ }
+ .sign-up {
+    background-color: rgb(29, 161, 242);
+    color: white;
+    margin-top: 35px;
+ }
+ .footer{
+  
+    text-align: center;
+    
+  }
+  .foot {
+      color: rgb(45,45,45);
+      font-size: 15px;
+      margin: 0.5em;
+  }
+  .foot:hover{
+    color: rgb(45,45,45);
+  }
