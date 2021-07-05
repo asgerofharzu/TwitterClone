@@ -1,0 +1,62 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap’);
+body{
+    font-family: 'Lato', sans-serif;
+}
+.reset{
+    width: 100%;
+    height: 30px;
+    border-bottom:2px solid #EEEEEE;
+    margin-bottom: 40px;
+}
+.reset>a{
+    margin-left: 30%;
+    font-size: 20px;
+    color: #1DA1F1;
+}
+.reset>span{
+    color: #66757F;
+}
+
+.find-account,.search{
+    margin-left: 30%;
+}
+
+.find-account>h1{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+.find-account>p{
+    font-size: 14px;
+}
+
+.find-account>input{
+    border: 1px solid #CCD6DD;
+    border-radius: 15px;
+    width: 330px;
+    height: 30px;
+    outline: none;
+    padding-left: 20px;
+}
+
+.find-account>input:focus{
+    border:2px solid #99CDF4;
+}
+
+.find-account{
+    margin-bottom: 30px;
+}
+
+#btn{
+    font-weight: 900;
+    border: 1px solid #1DA1F1;
+    background: #1DA1F1;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 20px;
+}
+
+#btn:hover{
+    cursor: pointer;
+    background: #016DBF;
+    border-color: #016DBF;
+}
