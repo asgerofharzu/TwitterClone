@@ -1,0 +1,135 @@
+@import url(‘https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap’);
+body {
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margin: 0;
+    background: #000;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.login {
+    margin-top: 20px;
+    width: 330px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid #fff; */
+}
+
+.login>i {
+    color: #D9D9D9;
+    font-size: 37px;
+    text-align: left;
+}
+
+.login>h1 {
+    color: #D9D9D9;
+    font-weight: 900;
+}
+
+.login>.text {
+    margin-bottom: 50px;
+}
+
+#text,
+#password {
+    width: 100%;
+    height: 80%;
+    border-radius: 5px;
+}
+
+label {
+    color: #6D767D;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+
+button {
+    margin-bottom: 20px;
+}
+
+.login>.password {
+    margin-bottom: 60px;
+}
+
+.login>.links {
+    text-align: center;
+}
+
+.login>.links>a {
+    color: #1779B5;
+    text-decoration: none;
+}
+
+.login>.links>a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: #1B91DA;
+    border: 1px solid #1B91DA;
+    border-radius: 25px;
+    color: #fff;
+    font-weight: 400;
+    height: 40px;
+}
+
+.login>.links>span {
+    color: #6D767D;
+    font-size: 12px;
+}
+
+input {
+    background: #000;
+    border: 1px solid #2F3336;
+    width: 100%;
+    height: 200% !important;
+    color: #fff;
+    padding-left: 10px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+input:focus{
+    border: 1px solid #1DA1F1;
+}
+
+input:focus+label,input:valid+label{
+    color: #1DA1F1;
+    transform: translate(0%, -50%);
+    font-size: 0.8em;
+}
+
+input:valid+label{
+    color: #6D767D;
+}
+
+
+
+/* input:valid button{
+    pointer-events:initial;
+    cursor:pointer;
+    opacity: 1;
+} */
+
+button{
+    pointer-events:initial;
+    cursor:pointer;
+    opacity:1;
+}
+
+#disabled{
+    pointer-events:none;
+    cursor:not-allowed;
+    opacity: 0.3;
+}
+
+
+.text,
+.password {
+    position: relative;
+}
