@@ -55,14 +55,14 @@ body {
     display: block;
     text-align: center;
     width: 25em;
-    margin-left: 3.7%;
+    margin-left: 25px;
     padding: 10px;
     font-weight: 700;
 }
 .login:hover{
     text-decoration: none;
     color: rgb(29,161,242);
-
+    background: #EBF5FE;
 }
 
  .sign-up {
@@ -86,3 +86,78 @@ body {
   .foot:hover{
     color: rgb(45,45,45);
   }
+
+.popup-block{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+    justify-content: center;
+    background:rgba(0, 0, 0, 0.4);
+}
+.popup-inline{
+    margin-top: 5%;
+    width: 600px;
+    height: 600px;
+    background: #FFF;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:991px){
+    .row{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    #sign-up_log-in{
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width:425px){
+    #sign-up_log-in>div>.sign-up,#sign-up_log-in>div>.login{
+        width: 90%;
+    }
+    #sign-up_log-in>div>h1{
+        font-size: 4em !important;
+    }
+    #sign-up_log-in>div>h2{
+        font-size: 1.5em !important;
+    }
+}

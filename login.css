@@ -92,6 +92,7 @@ input {
     padding-left: 10px;
     padding-top: 10px;
     box-sizing: border-box;
+    outline: none;
 }
 
 input:focus{
