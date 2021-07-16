@@ -1,67 +1,132 @@
-<<<<<<< HEAD
-
-=======
+body{
+    background: #000 !important;
+    color: #D9D9D9;
+}
+/* #061119 */
 .col-3{
-    border:1px solid #000;
+    border:1px solid #2F3336;
     width: 100%;
-    height: 30em;
+    height: 100vh;
+    position: relative;
 }
-
-
-
-
-.twitter-icon{
-    margin-bottom:12px;
-    width: 120%;
-}
->>>>>>> 1187182bf436d3caf5e1ad4e6b7b2e0c559ff9a8
-
-
-svg{
+.col-3 svg{
     width:10%;
-    padding-top: 20px;
-    margin-left:50px ;
+    fill: #D9D9D9;
 }
+.twitter-icon{
+    border: 1px solid black;
+    padding: 1%;
+    width: 12%;
+    border-radius: 50%;
+    margin-left: 30%;
+    margin-top: 3%;
+    margin-bottom: 8%;
 
-span{
-    margin-left: 20px;   
 }
-
-.btn{
-   
+.twitter-icon>svg{
+    width: 100%;
+}
+.twitter-icon:hover{
+    cursor: pointer;
+    border-color: #061119;
+    background:#061119;
+}
+/* .col-3>nav div>a>span{
+    
+} */
+.col-3>nav>div>a>span{
+    font-size: 20px;
+    line-height: 280%;
+}
+.col-3>nav>div>a>span{
+    display: inline-table;
+    transform: translate(0%,6%) !important;
+}
+.col-3>nav{
+    margin-left: 30%;
+    font-weight: 700;
+}
+/* .col-3>nav>div{
+    margin-bottom:6%;
+} */
+.col-3>nav>div>a>svg{
+    width: 12%;
+}
+.col-3>nav>#home>a>svg{
+    fill: #1DA1F1;
+    margin-right: 12%;
+}
+.col-3>nav>#home>a>span{
+    color: #1DA1F1;
+}
+.col-3>nav>#explore>a>svg{
+    margin-right: 12%;
+}
+.col-3>nav>#notification>a>svg{
+    margin-right: 10%;
+}
+.col-3>nav>#message>a>svg{
+    margin-right: 10%;
+}
+.col-3>nav>#bookmarks>a>svg{
+    margin-right: 10%;
+}
+.col-3>nav>#lists>a>svg{
+    margin-right: 10%;
+}
+.col-3>nav>#profile>a>svg{
+    margin-right: 10%;
+}
+.col-3>nav>#more>a>svg{
+    margin-right: 10%;
+}
+.col-3>nav>#more{
+    margin-bottom: 8%;
+}
+#tweet{
+    border: 1px solid #1DA1F1;
+    background: #1DA1F1;
     border-radius: 25px;
     width: 230px;
     height: 50px;
-    margin-left: 38px;
-    margin-top: 17px;
+    margin-left: 26%;
+    margin-top: 4%;
     font-weight: 700;
+    color: #FFF;
 }
+#tweet:hover{
+    border-color: #1B91DA;
+    background: #1B91DA;
+}
+.col-3>nav>div>a{
+    text-decoration: none;
+    color: #D9D9D9;
+}
+.col-3>nav>div:hover>a>svg{
+    fill: #1DA1F1;
+}
+.col-3>nav>div:hover>a{
+    color: #1DA1F1;
+}
+.col-3>nav>div:hover{
+    background: #061119;
+    border-color: #061119;
+}
+.profile{
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    display: flex;
 
-a:link{
-    text-decoration:none;
-    
 }
-a{
-    color: #000
+.profile>img{
+    margin-right: 4%;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    border: 1px solid #D9D9D9;
 }
-
-a:hover{
-    fill: #1B91DA;
-    border: 1px solid rgba(27, 193, 218, 1.0);
-    border-radius:12px;
-}
-p{
-    margin-left: 80px;
-   
-}
-
-.login{
-    margin-top:20px;
-    margin-bottom:-6px;
-}
-
-img{
-    width: 30%;
-    height:1%;
-    border-radius: 50px;
+.profile>svg{
+    margin-left: 3%;
+    width: 7%;
 }
