@@ -1,3 +1,4 @@
+//something sjflkdsjflkjds
 function control() {
     let invalids=document.querySelectorAll(":invalid").length,
         button=document.querySelector("button");
